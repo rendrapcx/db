@@ -26,11 +26,13 @@
     }
   ],
   "profile": {
+    "id":1,
     "name": "typicode"
   },
   "users": [
     {
-
+      "id":1,
+      "username": "Rendra"
     }
   ]
 }
