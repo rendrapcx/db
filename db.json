@@ -25,14 +25,13 @@
       "postId": 1
     }
   ],
-  "profile": {
-    "id":1,
-    "name": "typicode"
-  },
   "users": [
     {
       "id":1,
       "username": "Rendra"
     }
-  ]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
