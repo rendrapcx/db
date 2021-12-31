@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "age": 38,
+      "email": "admin@mail.com"
+    }
+  ],
+  "cities": [
+    {
+      "city": "Jakarta",
+      "country": "Indonesia"
+    },
+    {
+      "city": "Selangor",
+      "country": "Malaysia"
+    },
+    {
+      "city": "Surabaya",
+      "country": "Indonesia"
+    },
+    {
+      "country": "United States",
+      "city": "New York"
+    },
+    {
+      "country": "Australia",
+      "city": "Sydney"
+    },
+    {
+      "country": "Germany",
+      "city": "Berlin"
+    },
+    {
+      "country": "France",
+      "city": "Paris"
+    }
+  ]
+}
