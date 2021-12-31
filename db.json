@@ -1,18 +1,58 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1", "body": "Dilema euy" },
-    { "id": 2, "title": "Post 2", "body": "Kudu kumaha atuh" },
-    { "id": 3, "title": "Post 3", "body": "ning sarekeun" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "users": [
-    { "id": 1, "username": "Rendra"  },
-    { "id": 2, "username": "Pratama" }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "profile": {
-    "name": "itrendra"
-  }
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "age": 38,
+      "email": "admin@mail.com"
+    }
+  ],
+  "cities": [
+    {
+      "city": "Jakarta",
+      "country": "Indonesia"
+    },
+    {
+      "city": "Selangor",
+      "country": "Malaysia"
+    },
+    {
+      "city": "Surabaya",
+      "country": "Indonesia"
+    },
+    {
+      "country": "United States",
+      "city": "New York"
+    },
+    {
+      "country": "Australia",
+      "city": "Sydney"
+    },
+    {
+      "country": "Germany",
+      "city": "Berlin"
+    },
+    {
+      "country": "France",
+      "city": "Paris"
+    }
+  ]
 }
