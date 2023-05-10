@@ -1,13 +1,23 @@
 # JSON Server
+> https://github.com/typicode/json-server
 
-## Install
+
+## Cara Akses
+
+<https://my-json-server.typicode.com/rendrapcx/db>
+
+## Pemakaian Lokal
+
+**Install**
 ```
 npm install -g json-server
 ```
 
-## Usage
+**Jalanin Server**
 ```
-json-server --watch ./db.json --port 5000
-# for shared via wifi
-json-server --watch ~/Projects/db/db.json --host 192.168.100.5 --port 5000
+json-server --watch ./db.json --port 9876
+```
+> for shared via wifi, ganti host dengan ip sendiri
+```
+json-server --watch ~/Projects/db/db.json --host 192.168.100.5 --port 9876
 ```
