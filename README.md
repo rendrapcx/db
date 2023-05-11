@@ -2,7 +2,7 @@
 > https://github.com/typicode/json-server
 
 
-## Cara Akses
+## Cara Akses ..
 
 <https://my-json-server.typicode.com/rendrapcx/db>
 
